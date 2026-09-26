@@ -1,0 +1,9 @@
+{
+  "_comment": "IRSBot 远端版本验证文件 —— 必须放在 GitHub 仓库的**公开可读**路径下，程序运行时读取。",
+  "_usage": "程序读取 raw.githubusercontent.com/<owner>/IRS-Bot/main/version.json 并与自身版本比较：本地 < min → 强制更新；本地 < latest → 提示更新。",
+  "latest": "0.2.1.69",
+  "min": "0.2.1.60",
+  "force": false,
+  "notice": "检测到新版本，建议更新以获得最新修复。",
+  "url": "https://github.com/XhenB01/IRS-Bot/releases/latest"
+}
