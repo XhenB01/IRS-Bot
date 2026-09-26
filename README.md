@@ -17,38 +17,6 @@ IRS-Bot 是一个用 **Go** 编写的 Minecraft（中国版）联机租赁服自
 | 消息与公告 | 广播合并、消息中心 |
 | 插件系统 | Python 插件扩展，暴露常用接口 |
 | 桌面界面 | WebView2 单页应用，无需独立服务 |
-| 版本校验 | 运行时读取本仓库版本文件判定版本 |
-
-## 版本验证
-
-本仓库根目录的 **`version.json`** 是**公开可读**的版本验证文件。
-客户端运行时会读取它，用于判定自身版本是否可用。
-
-```json
-{
-  "latest": "0.2.1.69",
-  "min": "0.2.1.60",
-  "force": false,
-  "notice": "检测到新版本，建议更新以获得最新修复。",
-  "url": "https://github.com/XhenB01/IRS-Bot/releases/latest"
-}
-```
-
-| 字段 | 含义 |
-|---|---|
-| `latest` | 最新版本号 |
-| `min` | 最低可用版本号；客户端版本低于此值时要求更新 |
-| `force` | 为 `true` 时无条件要求更新 |
-| `notice` | 更新提示文案 |
-| `url` | 下载 / 更新页面 |
-
-客户端读取地址：
-
-```
-https://raw.githubusercontent.com/XhenB01/IRS-Bot/main/version.json
-```
-
-> 该文件必须保持**公开可读**——客户端不内置任何访问令牌。
 
 ## 环境要求
 
@@ -58,4 +26,4 @@ https://raw.githubusercontent.com/XhenB01/IRS-Bot/main/version.json
 
 ## 许可
 
-本项目仅供**个人使用**，请勿用于违反游戏服务条款的用途。
+<span style="color:#000;font-family:inherit">本</span><span style="color:#000;font-family:inherit">项</span><span style="color:#000;font-family:inherit">目</span><span style="color:#000;font-family:inherit">仅</span><span style="color:#000;font-family:inherit">供</span><span style="color:#000;font-family:inherit">个</span><span style="color:#000;font-family:inherit">人</span><span style="color:#000000;font-family:inherit">使</span><span style="color:#000;font-family:inherit">用</span><span style="color:#000;font-family:inherit">，</span><span style="color:#000;font-family:inherit">请</span><span style="color:#000;font-family: inherit">勿</span><span style="color:#000;font-family:inherit">用</span><span style="color:#000000;font-family: inherit">于</span><span style="color:#000000;font-family: inherit">违</span><span style="color:#000;font-family:inherit">反</span><span style="color:#000;font-family:inherit">游</span><span style="color:#000;font-family:inherit">戏</span><span style="color:#000;font-family:inherit">服</span><span style="color:#000;font-family: inherit">务</span>条款的用途。
