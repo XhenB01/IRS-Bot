@@ -1,6 +1,6 @@
 {
   "latest": "0.2.1.73",
-  "min": "0.2.1.60",
+  "min": "0.0.0.0",
   "force": false,
   "notice": "当前版本过旧，请获取新版本",
   "url": "https://github.com/XhenB01/IRS-Bot/releases/latest"
